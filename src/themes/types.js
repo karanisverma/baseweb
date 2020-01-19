@@ -678,6 +678,7 @@ export type GridT = {
   margins: ResponsiveT<number>,
   gaps: ResponsiveT<number>,
   maxWidth: number,
+  unit: string,
 };
 
 // TODO(#2318) Deprecate in the next major
